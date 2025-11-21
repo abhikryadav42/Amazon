@@ -1,0 +1,415 @@
+/* header */
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+body{
+    background-color: #F4F4F4;
+}
+
+.nav-bar{
+    height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+.nav-logo{
+    height: 50px;
+    width: 200px;
+}
+.logo{
+    background-image: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+/* box2 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 45%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.search-icon{
+    background-color: #f0f5ff;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: rgb(196, 186, 186);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: #f0f5ff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* box3 */
+.nav-profile{
+    display: flex;
+}
+
+.profile-icon{
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.profile-name{
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+/* content box */
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-box{
+    background-color: white;
+    height: 150px;
+    width: 97%;
+    margin-top: 8px;
+    /* margin-left: 30px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-1{
+    height: 149px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-img{
+    height: 80px;
+    width: 80px;
+    /* margin: 20px; */
+    background-size: cover;
+}
+
+.content-mess{
+    width: 130;
+    text-align: center;
+    /* margin: 0px 0px 20px 40px; */
+    font-size: 0.95rem;
+}
+
+
+
+
+
+.content-pic{
+    height: 170px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic{
+    height: 170px;
+    width: 97%;
+    background-size: cover;
+    background-image: url(image.png);
+}
+
+.content-pic1{
+    height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pic1{
+    height: 24px;
+    width: 97%;
+    background-color: white;
+}
+
+
+
+
+
+.contentbox1{
+    height: 320px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+
+.non-booking{
+    width: 84.9%;
+    height: 320;
+    margin-top: 10px;
+}
+
+.contentbox1-1{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.only499{
+    height: 76px;
+    width: 98.1%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    width: 97%;
+    font-size: 1.4rem;
+    padding: 16px 12px;
+    background-color: white;
+}
+
+.content-box-2{
+    height: 255px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.content-box-2-1{
+    height: 250px;
+    width: 97%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-2{
+    height: 220px;
+    width: 170px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-img-2{
+    height: 150px;
+    width: 110px;
+    background-size: cover;
+
+
+}
+
+.content-mess-2{
+    font-size: 0.8rem;
+    margin: 10px 0px 3px 0px;
+}
+
+.content-mess-2-1{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.bestselling{
+    width: 130;
+    height: 60px;
+}
+
+.booking{
+    height: 325px;
+    width:13.6%;
+    margin-top: 8px;
+    background-image: url(booking.png);
+    background-size: cover;
+}
+
+
+
+
+/* second line content */
+
+.beauty{
+    height: 320px;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 25px;
+}
+
+
+.productname{
+    height: 320px;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.beauty1{
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+
+.beauty2{
+    height: 80px;
+    width: 97%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.beauty3{
+    height: 80px;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+
+.producttype{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.producttype2{
+    height: 240px;
+    width: 97%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.skin{
+    height: 240px;
+    width: 170px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skin2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .skin2{
+    width: 170px;
+    height: 230px;
+} */
+
+
+
+.product-img{
+    height: 150px;
+    width: 110px;
+    background-size: cover;
+}
+
+
+.product-mess{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skincare{
+    display: flex;
+    justify-content: center;
+}
+
+
+.under499{
+    display: flex;
+    justify-content: center;
+}
+
+.mess{
+    font-size: 0.8rem;
+}
+
+.under-499-1{
+    font-size: 0.8rem;
+}
+
+
+
+/* footer */
+footer{
+    height: 354px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* display: flex;
+    justify-content: space-evenly; */
+    font-size: 0.8rem;
+}
+
+.footer1{
+    height: 205px;
+    width: 120xp;
+    margin-top: 50px;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about1{
+    color: #878787;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+ul{
+
+}
+
+ul a {
+    display: flex;
+    margin-top: 5px;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+
+
+
